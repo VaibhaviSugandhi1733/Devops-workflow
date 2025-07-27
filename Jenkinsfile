@@ -2,9 +2,9 @@ pipeline {
   agent any
 
   stages {
-    stage('Checkout Code') {
+    stage('github clone') {
       steps {
-        checkout scm
+        git 'https://github.com/VaibhaviSugandhi1733/devops-workflow.git/'
       }
     }
 
@@ -56,4 +56,3 @@ pipeline {
     }
   }
 }
-
