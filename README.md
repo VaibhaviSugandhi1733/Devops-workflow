@@ -169,7 +169,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙌 Acknowledgements
+
 
 Special thanks to all the open-source tools that made this pipeline possible.
 
