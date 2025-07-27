@@ -40,13 +40,14 @@ To automate the full cycle of:
 ```
 
 devops-workflow/
-├── Dockerfile              # Docker image for the web app
-├── Jenkinsfile             # CI/CD pipeline script
+├── app/
+│ └── index.html # Sample web app content
+├── Dockerfile # Docker build instructions
+├── Jenkinsfile # Jenkins CI/CD pipeline definition
 ├── ansible/
-│   ├── inventory.ini       # EC2 host configuration
-│   └── deploy.yml          # Ansible playbook to deploy Docker container
-└── app/
-└── index.html          # Sample app content (static)
+│ ├── deploy.yml # Ansible playbook for deployment
+│ └── inventory.ini # Remote EC2 host configuration
+└── README.md # Project documentation
 
 ````
 
